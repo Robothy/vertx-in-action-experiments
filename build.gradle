@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+ext {
+    vertxVersion = '4.1.0'
+    slf4jVersion = '1.7.32'
+    logbackVersion = '1.2.5'
+}
+
+repositories {
+    mavenCentral()
+}
